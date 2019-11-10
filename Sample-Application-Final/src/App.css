@@ -1,0 +1,117 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  background-image: linear-gradient(gray, #d3d3d3);
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+
+/* table CSS starts here */
+.tableContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.table {
+  width: 40%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: grey;
+  border: 1px solid;
+  margin-top: 40px;
+}
+
+
+td,
+th { 
+	padding: 4px; 
+	border: 1px solid #CCC;
+	overflow: hidden;
+	text-align: left;
+	vertical-align: middle;
+}
+th { 
+	background-color: #DDD; 
+  font-weight: 400;
+  
+}
+.bold {
+  font-weight: bold;
+}
+.font15 {
+  font-size: 15px;
+}
+
+.table thead tr th, .table tbody tr td{
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  text-align: left;
+}
+
+.table>tbody>tr:hover {
+  background-color: #f5f5f5;
+}
+
+.LoginComponent {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.LoginContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  flex-direction: column;
+}
+.TextLabel {
+  padding-top: 5px;
+}
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 6px 24px 11px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  /* margin: 4px 14px; */
+  cursor: pointer;
+}
+
+
+.LoginInput {
+  margin-right: 50px;
+  height: 20px;
+}
+.TableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout {
+  margin-right: 46px;
+  position: absolute;
+  right: 0px;
+  top: 35px;
+  padding: 13px;
+}
